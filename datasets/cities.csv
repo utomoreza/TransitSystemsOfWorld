@@ -7,7 +7,6 @@ id,name,coords,start_year,url_name,country,country_state
 10,Asunción,POINT(-57.66666667 -25.25),2017,asuncion,Paraguay,
 11,Athens,POINT(23.71666667 37.96666667),2017,athens,Greece,
 12,Auckland,POINT(174.75 -36.86666667),2017,auckland,New Zealand,
-13,Bangkok,POINT(100.5 13.75),2017,bangkok,Thailand,
 211,Ottawa,POINT(-75.71666667 45.4),2000,ottawa,Canada,Ont.
 17,Belfast,POINT(-5.933333333 54.61666667),2017,belfast,Northern Ireland,
 18,Belgrade,POINT(20.53333333 44.86666667),2017,belgrade,Serbia,
@@ -23,10 +22,10 @@ id,name,coords,start_year,url_name,country,country_state
 278,Perpignan,POINT(2.899967406 42.69998924),2018,perpignan,France,
 279,Tarbes,POINT(0.083343464 43.23329002),2018,tarbes,France,
 280,Clermont-Ferrand,POINT(3.080008096 45.77998212),2004,clermont-ferrand,France,
-8,Amsterdam,POINT(4.883333333 52.36666667),1980,amsterdam,Netherlands,
+8,Amsterdam,POINT(4.883333333 52.36666667),1970,amsterdam,Netherlands,
+13,Bangkok,POINT(100.5 13.75),1996,bangkok,Thailand,
 268,San Sebastián,POINT(-1.98 43.32),1912,san-sebastian,Spain,
 20,Birmingham,POINT(-1.916666667 52.41666667),2017,birmingham,England,
-22,Bombay,POINT(72.8 19),2017,bombay,India,
 24,Bremen,POINT(8.816666667 53.08333333),2017,bremen,Germany,
 25,Brisbane,POINT(153.1333333 -27.48333333),2017,brisbane,Australia,
 26,Bristol,POINT(-2.583333333 51.46666667),2017,bristol,England,
@@ -49,6 +48,7 @@ id,name,coords,start_year,url_name,country,country_state
 290,Cherbourg,POINT(-1.649987428 49.65039187),2018,cherbourg,France,
 291,Caen,POINT(-0.349989259 49.18375368),2018,caen,France,
 283,Besancon,POINT(6.03000891 47.22999697),2006,besancon,France,
+22,Mumbai,POINT(72.8 19),1910,mumbai,India,Maharashtra
 35,Cayenne,POINT(-52.3 4.816666667),2017,cayenne,French Guiana,
 36,Chihuahua,POINT(-106.0833333 28.61666667),2017,chihuahua,Mexico,
 37,Chongqing,POINT(106.5666667 29.76666667),2017,chongqing,China,
@@ -80,7 +80,6 @@ id,name,coords,start_year,url_name,country,country_state
 56,Hong Kong,POINT(114.1833333 22.33333333),2017,hong-kong,China,
 57,Iquique,POINT(-70.11666667 -20.16666667),2017,iquique,Chile,
 58,Irkutsk,POINT(104.3333333 52.5),2017,irkutsk,Russia,
-59,Jakarta,POINT(106.8 -6.266666667),2017,jakarta,Indonesia,
 60,Johannesburg,POINT(28.06666667 -26.2),2017,johannesburg,South Africa,
 61,Kingston,POINT(-76.81666667 17.98333333),2017,kingston,Jamaica,
 62,Kinshasa,POINT(15.28333333 -4.3),2017,kinshasa,Congo,
@@ -90,7 +89,7 @@ id,name,coords,start_year,url_name,country,country_state
 303,Nevers,POINT(3.166669473 46.98373293),2018,nevers,France,
 304,Auxerre,POINT(3.566593382 47.80042727),2018,auxerre,France,
 300,Montpellier,POINT(3.869985716 43.61039878),1996,montpellier,France,
-73,Manila,POINT(120.95 14.58333333),2017,manila,Philippines,
+59,Jakarta,POINT(106.816667 -6.2),1871,jakarta,Indonesia,
 70,Lyons,POINT(4.833333333 45.75),1862,lyons,France,
 309,Dieppe,POINT(1.083334105 49.93373374),2018,dieppe,France,
 65,Leeds,POINT(-1.5 53.75),2017,leeds,England,
@@ -122,9 +121,9 @@ id,name,coords,start_year,url_name,country,country_state
 314,Reims,POINT(4.029975951 49.25039044),2008,reims,France,
 318,Nancy,POINT(6.200024372 48.68368085),2001,nancy,France,
 308,Orleans,POINT(1.900028441 47.90042116),1998,orleans,France,
+73,Manila,POINT(120.95 14.58333333),1981,manila,Philippines,
 331,Le Havre,POINT(0.104970051 49.50497438),1890,le-havre,France,
 327,Lille,POINT(3.080008096 50.64996909),1909,lille,France,
-91,Osaka,POINT(135.5 34.53333333),1874,osaka,Japan,
 83,Nagasaki,POINT(129.95 32.8),2017,nagasaki,Japan,
 84,Nagoya,POINT(136.9333333 35.11666667),2017,nagoya,Japan,
 85,Nairobi,POINT(36.91666667 -1.416666667),2017,nairobi,Kenya,
@@ -146,8 +145,12 @@ id,name,coords,start_year,url_name,country,country_state
 332,St.-Denis,POINT(55.44807776 -20.87889484),2018,st.-denis,France,
 333,Cayenne,POINT(-52.33002059 4.932992166),2018,cayenne-france,France,
 328,Strasbourg,POINT(7.750007282 48.57996625),1994,strasbourg,France,
-108,Singapore,POINT(103.9166667 1.233333333),2017,singapore,Singapore,
+91,Osaka,POINT(135.502222 34.693889),1874,osaka,Japan,
 109,Sofia,POINT(23.33333333 42.66666667),2017,sofia,Bulgaria,
+342,Istanbul,POINT(28.955 41.013611),1989,istanbul,Turkey,
+111,Sydney,POINT(151.2 -33.866667),1858,sydney,Australia,
+343,Florianópolis,POINT(-48.553047 -27.593281),2019,florianopolis,Brazil,Santa Catarina
+344,Bergen,POINT(5.323333 60.3925),2019,bergen,Norway,Hordaland
 104,Salvador,POINT(-38.45 -12.93333333),2014,salvador,Brazil,
 98,Port Moresby,POINT(147.1333333 -9.416666667),2017,port-moresby,Papua New Guinea,
 99,Prague,POINT(14.43333333 50.08333333),2017,prague,Czech Republic,
@@ -160,23 +163,32 @@ id,name,coords,start_year,url_name,country,country_state
 275,Angers,POINT(-0.530029949 47.48000755),2007,angers,France,
 106,São Paulo,POINT(-46.6363621 -23.5453402),1860,sao-paulo,Brazil,
 286,Grenoble,POINT(5.720001992 45.18038047),1934,grenoble,France,
-111,Sydney,POINT(151 -34),1858,sydney,Australia,
 77,Melbourne,POINT(144.9666667 -37.78333333),1854,melbourne,Australia,
 155,Detroit,POINT(-83.05 42.33333333),2017,detroit,United States,Mich.
 170,Helena,POINT(-112.0333333 46.58333333),2017,helena,United States,Mont.
 214,Pierre,POINT(-100.35 44.36666667),2017,pierre,United States,S.D.
 102,Rio de Janeiro,POINT(-43.2 -22.95),1858,rio-de-janeiro,Brazil,
 64,La Paz,POINT(-68.36666667 -16.45),2011,la-paz,Bolivia,
-335,La Plata,POINT(-57.953772 -34.919392),,la-plata,Argentina,Buenos Aires
-336,Alicante,POINT(-0.48149 38.34517),,alicante,Spain,Valencia
-338,Neuquén,POINT(-68.045533 -38.95735),,neuquen,Argentina,Neuquén
+335,La Plata,POINT(-57.953772 -34.919392),2019,la-plata,Argentina,Buenos Aires
+336,Alicante,POINT(-0.48149 38.34517),2019,alicante,Spain,Valencia
+338,Neuquén,POINT(-68.045533 -38.95735),2019,neuquen,Argentina,Neuquén
+340,Pune,POINT(73.847778 18.523611),1958,pune,India,Maharashtra
+341,Doha,POINT(51.533333 25.286667),2019,doha,Qatar,
+339,Quito,POINT(-78.516667 -0.233333),2013,quito,Ecuador,Pichincha
+352,Norfolk,POINT(-76.274394 36.854628),2007,norfolk,United States,Va.
+353,Dhaka,POINT(90.388889 23.763889),2019,dhaka,Bangladesh,
+108,Singapore,POINT(103.833333 1.283333),1932,singapore,Singapore,
+357,Busan,POINT(129.075638 35.179554),2020,busan,South Korea,
+358,Taipei,POINT(121.565414 25.032969),2020,taipei,Taiwan,
+359,Macau,POINT(113.543877 22.198746),2020,macau,China,Macau
+356,Seoul,POINT(126.977966 37.566536),1971,seoul,South Korea,
+354,Rotterdam - The Hague,POINT(4.5 51.916667),2020,rotterdam-the-hague,Netherlands,South Holland
 125,Medellín,POINT(-75.574828 6.244747),2017,medellin,Colombia,
 114,Tokyo,POINT(139.75 35.66666667),1872,tokyo,Japan,
 113,Teheran,POINT(51.75 35.75),2017,teheran,Iran,
 115,Tripoli,POINT(13.2 32.95),2017,tripoli,Libya,
 117,Veracruz,POINT(-96.16666667 19.16666667),2017,veracruz,Mexico,
 119,Vladivostok,POINT(132 43.16666667),2017,vladivostok,Russia,
-120,Warsaw,POINT(21 52.23333333),2017,warsaw,Poland,
 121,Wellington,POINT(174.7833333 -41.28333333),2017,wellington,New Zealand,
 122,Zürich,POINT(8.516666667 47.35),2017,zurich,Switzerland,
 138,Boise,POINT(-116.2166667 43.6),2017,boise,United States,Idaho
@@ -184,6 +196,14 @@ id,name,coords,start_year,url_name,country,country_state
 116,Venice,POINT(12.33333333 45.43333333),1842,venice,Italy,
 124,Valparaíso,POINT(-71.616361 -33.045944),1855,valparaiso,Chile,
 139,Boston,POINT(-71.08333333 42.35),1806,boston,United States,Mass.
+120,Warsaw,POINT(21 52.23333333),1995,warsaw,Poland,
+345,Izmir,POINT(27.13838 38.41273),2019,izmir,Turkey,
+346,Bursa,POINT(29.066667 40.183333),2019,bursa,Turkey,
+347,Antalya,POINT(30.69556 36.90812),2019,antalya,Turkey,
+348,Adana,POINT(35.31779 36.99343),2019,adana,Turkey,
+349,Konya,POINT(32.483333 37.866667),2019,konya,Turkey,
+350,Kocaeli,POINT(29.93261 40.76473),2019,kocaeli,Turkey,
+351,Eskisehir,POINT(30.520009 39.770479),2019,eskisehir,Turkey,
 143,Charleston,POINT(-79.93333333 32.78333333),2017,charleston,United States,S.C.
 140,Buffalo,POINT(-78.83333333 42.91666667),2017,buffalo,United States,N.Y.
 123,Monterrey,POINT(-100.308611 25.671389),2017,monterrey,Mexico,
@@ -196,13 +216,12 @@ id,name,coords,start_year,url_name,country,country_state
 128,Albuquerque,POINT(-106.65 35.08333333),2017,albuquerque,United States,N.M.
 129,Amarillo,POINT(-101.8333333 35.18333333),2017,amarillo,United States,Tex.
 130,Anchorage,POINT(-149.9 61.21666667),2017,anchorage,United States,Alaska
-131,Atlanta,POINT(-84.38333333 33.75),2017,atlanta,United States,Ga.
+131,Atlanta,POINT(-84.38333333 33.75),1974,atlanta,United States,Ga.
 132,Austin,POINT(-97.73333333 30.26666667),2017,austin,United States,Tex.
 133,Baker,POINT(-117.8333333 44.78333333),2017,baker,United States,Ore.
 134,Baltimore,POINT(-76.63333333 39.3),2017,baltimore,United States,Md.
 136,Birmingham,POINT(-86.83333333 33.5),2017,birmingham-united-states,United States,Ala.
 137,Bismarck,POINT(-100.7833333 46.8),2017,bismarck,United States,N.D.
-145,Charlotte,POINT(-80.83333333 35.23333333),2017,charlotte,United States,N.C.
 146,Cheyenne,POINT(-104.8666667 41.15),2017,cheyenne,United States,Wyo.
 149,Cleveland,POINT(-81.61666667 41.46666667),2017,cleveland,United States,Ohio
 150,Columbia,POINT(-81.03333333 34),2017,columbia,United States,S.C.
@@ -211,6 +230,7 @@ id,name,coords,start_year,url_name,country,country_state
 154,Des Moines,POINT(-93.61666667 41.58333333),2017,des-moines,United States,Iowa
 152,Dallas,POINT(-96.76666667 32.76666667),1989,dallas,United States,Tex.
 148,Cincinnati,POINT(-84.5 39.13333333),1920,cincinnati,United States,Ohio
+145,Charlotte,POINT(-80.83333333 35.23333333),2005,charlotte,United States,N.C.
 156,Dubuque,POINT(-90.66666667 42.51666667),2017,dubuque,United States,Iowa
 157,Duluth,POINT(-92.08333333 46.81666667),2017,duluth,United States,Minn.
 158,Eastport,POINT(-67 44.9),2017,eastport,United States,Maine
@@ -258,7 +278,6 @@ id,name,coords,start_year,url_name,country,country_state
 202,Nelson,POINT(-117.2833333 49.5),2017,nelson,Canada,B.C.
 203,Newark,POINT(-74.16666667 40.73333333),2017,newark,United States,N.J.
 204,New Haven,POINT(-72.91666667 41.31666667),2017,new-haven,United States,Conn.
-205,New Orleans,POINT(-90.06666667 29.95),2017,new-orleans,United States,La.
 207,Nome,POINT(-165.5 64.41666667),2017,nome,United States,Alaska
 208,Oakland,POINT(-122.2666667 37.8),2017,oakland,United States,Calif.
 209,Oklahoma City,POINT(-97.46666667 35.43333333),2017,oklahoma-city,United States,Okla.
@@ -266,28 +285,28 @@ id,name,coords,start_year,url_name,country,country_state
 212,Philadelphia,POINT(-75.16666667 39.95),2017,philadelphia,United States,Pa.
 213,Phoenix,POINT(-112.0666667 33.48333333),2017,phoenix,United States,Ariz.
 199,Montréal,POINT(-73.58333333 45.5),1966,montreal,Canada,Que.
-206,New York,POINT(-73.96666667 40.78333333),1832,new-york,United States,N.Y.
+206,New York,POINT(-73.96666667 40.78333333),1817,new-york,United States,N.Y.
+205,New Orleans,POINT(-90.06666667 29.95),1833,new-orleans,United States,La.
 215,Pittsburgh,POINT(-79.95 40.45),2017,pittsburgh,United States,Pa.
 216,Portland,POINT(-70.25 43.66666667),2017,portland,United States,Maine
-217,Portland,POINT(-122.6833333 45.51666667),2017,portland-united-states,United States,Ore.
 218,Providence,POINT(-71.4 41.83333333),2017,providence,United States,R.I.
 219,Quebec,POINT(-71.18333333 46.81666667),2017,quebec,Canada,Que.
 220,Raleigh,POINT(-78.65 35.76666667),2017,raleigh,United States,N.C.
 221,Reno,POINT(-119.8166667 39.5),2017,reno,United States,Nev.
 222,Richfield,POINT(-112.0833333 38.76666667),2017,richfield,United States,Utah
-223,Richmond,POINT(-77.48333333 37.55),2017,richmond,United States,Va.
 224,Roanoke,POINT(-79.95 37.28333333),2017,roanoke,United States,Va.
 225,Sacramento,POINT(-121.5 38.58333333),2017,sacramento,United States,Calif.
 226,St. John,POINT(-66.16666667 45.3),2017,st.-john,Canada,N.B.
 227,St. Louis,POINT(-90.2 38.58333333),2017,st.-louis,United States,Mo.
 228,Salt Lake City,POINT(-111.9 40.76666667),2017,salt-lake-city,United States,Utah
+223,Richmond,POINT(-77.48333333 37.55),2016,richmond,United States,Va.
+217,Portland,POINT(-122.6833333 45.51666667),1982,portland-united-states,United States,Ore.
 229,San Antonio,POINT(-98.55 29.38333333),2017,san-antonio,United States,Tex.
 230,San Diego,POINT(-117.1666667 32.7),2017,san-diego,United States,Calif.
 231,San Francisco,POINT(-122.4333333 37.78333333),2017,san-francisco,United States,Calif.
 232,San Jose,POINT(-121.8833333 37.33333333),2017,san-jose,United States,Calif.
 233,San Juan,POINT(-66.16666667 18.5),2017,san-juan,United States,P.R.
 234,Santa Fe,POINT(-105.95 35.68333333),2017,santa-fe,United States,N.M.
-235,Savannah,POINT(-81.08333333 32.08333333),2017,savannah,United States,Ga.
 237,Shreveport,POINT(-93.7 32.46666667),2017,shreveport,United States,La.
 238,Sioux Falls,POINT(-96.73333333 43.55),2017,sioux-falls,United States,S.D.
 239,Sitka,POINT(-135.25 57.16666667),2017,sitka,United States,Alaska
@@ -295,9 +314,9 @@ id,name,coords,start_year,url_name,country,country_state
 241,Springfield,POINT(-89.63333333 39.8),2017,springfield,United States,Ill.
 242,Springfield,POINT(-72.56666667 42.1),2017,springfield-united-states,United States,Mass.
 236,Seattle,POINT(-122.3333333 47.61666667),1961,seattle,United States,Wash.
+235,Savannah,POINT(-81.08333333 32.08333333),2004,savannah,United States,Ga.
 243,Springfield,POINT(-93.28333333 37.21666667),2017,springfield-united-states,United States,Mo.
 244,Syracuse,POINT(-76.13333333 43.03333333),2017,syracuse,United States,N.Y.
-245,Tampa,POINT(-82.45 27.95),2017,tampa,United States,Fla.
 246,Toledo,POINT(-83.55 41.65),2017,toledo,United States,Ohio
 248,Tulsa,POINT(-95.98333333 36.15),2017,tulsa,United States,Okla.
 249,Vancouver,POINT(-123.1 49.21666667),2017,vancouver,Canada,B.C.
@@ -309,14 +328,15 @@ id,name,coords,start_year,url_name,country,country_state
 257,Sevilla,POINT(-5.983333 37.383333),2017,sevilla,Spain,
 255,Winnipeg,POINT(-97.11666667 49.9),2013,winnipeg,Canada,Man.
 256,Valencia,POINT(-0.375 39.466667),1994,valencia,Spain,
-259,Rosario,POINT(-60.65 -32.95),2017,rosario,Argentina,
-260,Mendoza,POINT(-68.833333 -32.883333),2017,mendoza,Argentina,
+245,Tampa,POINT(-82.45 27.95),2002,tampa,United States,Fla.
 71,Madrid,POINT(-3.7 40.43333333),1916,madrid,Spain,
 14,Barcelona,POINT(2.15 41.38333333),1848,barcelona,Spain,
 78,Mexico City,POINT(-99.11666667 19.43333333),1967,mexico-city,Mexico,
 126,Guadalajara,POINT(-103.351944 20.666111),1987,guadalajara,México,
 66,Lima,POINT(-77.018611 -12.035),1984,lima,Peru,
 258,Bilbao,POINT(-2.953333 43.262222),1887,bilbao,Spain,
+259,Rosario,POINT(-60.65 -32.95),1868,rosario,Argentina,
+260,Mendoza,POINT(-68.833333 -32.883333),2015,mendoza,Argentina,
 118,Vienna,POINT(16.33333333 48.23333333),1978,vienna,Austria,
 107,Shanghai,POINT(121.4666667 31.16666667),1990,shanghai,China,
 21,Bogotá,POINT(-74.0904236 4.6304949),1872,bogota,Colombia,

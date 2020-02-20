@@ -1,0 +1,53 @@
+---
+title: "Transit Systems of the World"
+author: "utomoreza"
+date: "20/02/2020"
+output:
+  html_document:
+    highlight: zenburn
+    number_sections: yes
+    theme: flatly
+    toc: yes
+    toc_depth: 2
+    toc_float:
+      collapsed: yes
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+# Metadata
+
+# Preparation
+
+```{r}
+citiesDF <- read.csv("datasets/cities.csv")
+linesDF <- read.csv("datasets/lines.csv")
+sectLinesDF <- read.csv("datasets/section_lines.csv")
+sectionsDF <- read.csv("datasets/sections.csv")
+statLinesDF <- read.csv("datasets/station_lines.csv")
+stationsDF <- read.csv("datasets/stations.csv")
+systemsDF <- read.csv("datasets/systems.csv")
+transModesDF <- read.csv("datasets/transport_modes.csv")
+```
+
+```{r}
+citiesDF
+linesDF
+sectLinesDF
+sectionsDF
+statLinesDF
+stationsDF
+systemsDF
+transModesDF
+```
+
+# Data Cleansing
+
+# Exploratory Data Analysis
+
+# Conclusions

@@ -2,17 +2,13 @@ id,city_id,name
 1,5,
 2,6,
 3,7,
-4,8,
-5,9,
 6,16,
 7,10,
 8,11,
 9,12,
-10,13,
 11,17,
 12,18,
 14,20,
-15,22,
 17,24,
 18,25,
 19,26,
@@ -43,15 +39,12 @@ id,city_id,name
 48,56,
 49,57,
 50,58,
-51,59,
 52,60,
 53,61,
 54,62,
-635,259,Ómnibus Mack
 57,65,
 59,68,
 61,72,
-62,73,
 87,99,Metro
 64,75,
 65,76,
@@ -84,7 +77,6 @@ id,city_id,name
 16,23,Tramway de Bordeaux
 103,117,
 104,119,
-105,120,
 106,121,
 107,122,
 108,125,
@@ -101,13 +93,11 @@ id,city_id,name
 121,128,
 122,129,
 123,130,
-124,131,
 125,132,
 126,133,
 127,134,
 128,136,
 129,137,
-130,145,
 131,146,
 134,149,
 135,150,
@@ -135,6 +125,7 @@ id,city_id,name
 13,19,U-Bahn
 74,87,Metro
 94,106,Metroferroviário
+635,259,Autobus
 83,95,Métro de Paris
 20,27,Metro
 40,48,Glasgow Subway
@@ -146,6 +137,13 @@ id,city_id,name
 70,82,U-Bahn
 133,148,Cincinnati Subway
 111,124,Metro Valparaíso
+51,59,Jakarta BRT
+5,9,Otobüs (EGO)
+15,22,MMMOCL METRO
+4,8,GVB Metro
+130,145,CATS
+62,73,LRTA
+10,13,Airport Rail Link
 158,173,
 159,174,
 160,175,
@@ -178,7 +176,6 @@ id,city_id,name
 187,202,
 188,203,
 189,204,
-190,205,
 192,207,
 193,208,
 194,209,
@@ -189,13 +186,11 @@ id,city_id,name
 199,214,
 200,215,
 201,216,
-202,217,
 203,218,
 204,219,
 205,220,
 206,221,
 207,222,
-208,223,
 209,224,
 210,225,
 211,226,
@@ -206,7 +201,6 @@ id,city_id,name
 217,232,
 218,233,
 219,234,
-220,235,
 222,237,
 223,238,
 224,239,
@@ -215,7 +209,6 @@ id,city_id,name
 227,242,
 228,243,
 229,244,
-230,245,
 231,246,
 233,248,
 235,250,
@@ -224,10 +217,11 @@ id,city_id,name
 238,253,
 239,254,
 637,206,Staten Island Ferry
+208,223,Greater Richmond Transit Company
 242,257,
-245,260,
 249,126,
 250,66,
+202,217,TriMet
 254,1,Subte
 247,14,Metro
 191,206,MTA NYC Subway
@@ -248,11 +242,10 @@ id,city_id,name
 91,103,Metro
 271,103,Ferrovie Urbane
 102,116,Sistema Ferroviario Metropolitano Regionale
-275,106,Trem Turístico
 276,4,Ferrocarriles del Estado
 256,261,Biotrén
 246,71,Metro
-279,106,BRT/Corredor
+275,106,Turismo
 353,99,Bus
 216,231,MUNI
 280,19,S-Bahn
@@ -269,10 +262,11 @@ id,city_id,name
 288,258,Euskotren Trena
 234,249,Skytrain
 253,21,Transmilenio
+220,235,Savannah DOT
 290,264,Tranvía de Zaragoza
 291,264,Cercanías Renfe
 292,266,STAR
-221,236,Link Light Rail
+190,205,New Orleans Regional Transit Authority
 295,266,Tramways Électriques Rennais (TER)
 232,247,Toronto Transit Commission Subway
 237,252,WMATA Metrorail
@@ -289,7 +283,10 @@ id,city_id,name
 289,265,Tramway
 303,95,Navettes fluviales
 304,114,Toei Light Rail
-638,259,Ómnibus
+641,1,Ferry
+646,259,Tranvías Caballo
+358,236,Sounder
+378,27,Tram
 313,114,Tokyo Waterfront New Transit Corporation
 315,126,Macrobús
 327,265,Ancien tramway
@@ -337,7 +334,6 @@ id,city_id,name
 372,91,Keihan
 373,91,Nankai
 374,91,Kintetsu
-378,27,Tram
 379,82,S-Bahn
 380,82,Tram
 381,307,Tram
@@ -361,10 +357,8 @@ id,city_id,name
 404,324,Tram
 407,108,SBS Transit
 240,255,Winnipeg Transit - MBMetroRail
-357,236,KCM Rapid Bus Corridors
 369,91,Osaka Metro
 110,139,MBTA Subway
-358,236,InterCounty Train
 377,114,Chichibu Railway
 324,114,Hokuso Railway
 376,114,Isumi Railway
@@ -392,9 +386,16 @@ id,city_id,name
 350,114,Yokohama Seaside Line
 308,114,Keisei
 589,91,Hankai Tramway
+640,91,Osaka Shiden
+416,1,Metrobus
 590,236,Seattle Subway
 66,77,Metro Trains Melbourne
-416,1,Metrobús
+245,260,MetroTranvía
+642,338,Metrobus
+643,338,Tren del Valle
+644,110,Saltsjöbanan
+638,259,Ómnibus Microómnibus
+645,259,Ómnibus Microómnibus 2
 423,139,CapeFLYER
 461,126,Ruta-Empresa
 463,331,Tramway
@@ -413,9 +414,14 @@ id,city_id,name
 475,110,Roslagsbanan
 476,110,Nockebybanan
 478,4,Tranvías Suburbanos
+652,340,Underconstruction
 479,206,NYW&B
 480,206,NYNH&H
+653,340,DPR IN PROGRESS
 477,206,IRT
+654,340,FUTURE LINES
+655,340,SUGGESTED LINES FOR FUTURE
+649,22,Western Suburban  Railway
 483,206,New York Central
 484,327,Tramway
 485,327,AMITRAM
@@ -450,6 +456,7 @@ id,city_id,name
 544,91,Osaka Monorail
 545,91,Kita-Osaka Kyuko Railway
 546,91,Kobe Municipal Subway
+648,22,Thane Circular  Metro
 548,91,Sanyo Electric Railway
 549,91,Kobe New Transit
 550,91,Kobe Electric Railway
@@ -459,10 +466,12 @@ id,city_id,name
 553,91,Hokushin Kyuko Electric Railway
 554,91,Wakayama Electric Railway
 587,91,Iga Railway
+650,22,Central Suburban Railway
 588,64,Teleférico
+651,22,Harbour Line
+647,22,NMML
 592,252,WMATA Metrobus
 626,48,Glasgow to Edinburgh Lines
-627,48,North of Scotland lines
 628,48,Ayrshire & Inverclyde Lines
 629,45,National Rail
 630,323,Lanka Bus Group
@@ -487,3 +496,67 @@ id,city_id,name
 334,114,Tokyo Tama Intercity Monorail
 316,114,Tokyo Waterfront Area Rapid Transit
 462,114,Utsunomiya Light Rail Company
+656,340,LRT PROPOSED
+657,340,ART (PEOPLE MOVER)
+658,340,SUBURBAN RAILWAY
+627,48,North of Scotland Lines
+659,22,Trans Harbour Line
+660,22,Monorail
+661,339,Metro
+662,59,Jakarta LRT
+669,342,Havaist
+663,342,İETT/Otobüs AŞ
+664,342,Metro İstanbul
+671,342,Havabus
+672,342,İETT Raylı Sistemler
+670,342,TCDD Taşımacılık
+673,342,Minibüsler
+674,342,Şehir Hatları
+675,59,Jakarta MRT
+676,59,Commuter Line
+677,59,Soetta ARS
+678,59,Greater Jakarta LRT
+679,59,Soetta APMS
+105,120,Metro
+680,22,Metro Depot
+681,22,Metro Depot
+682,59,HSR Jakarta-Bandung
+683,8,GVB Tram
+684,22,FUTURE SUGGESSIONS
+685,22,High Speed Bullet Train
+221,236,Link light rail
+357,236,RapidRide
+686,352,Hampton Roads Transit
+687,22,Multi Modal Corridor
+688,217,Portland Aerial Tram
+689,217,Portland Streetcar
+690,108,Changi Airport Group
+691,108,Sentosa Development Corporation
+692,108,KTM Intercity
+693,73,MRTC
+694,73,PNR
+695,73,Metro Manila Subway
+696,73,Pasig River Ferry
+124,131,Metropolitan Atlanta Rapid Transit Authority (MARTA)
+230,245,Hillsborough Area Regional Transit (HART)
+697,205,New Orleans Railways
+698,13,BTS Skytrain
+699,13,MRT
+279,106,Metrorrodoviário
+700,106,Metrohidroviário
+701,106,Teleférico
+702,355,Metro
+703,354,Tram
+704,354,Bus
+705,13,Bangkok BRT
+706,27,Tram CHRONO
+707,356,Seoul Metropolitan Subway
+708,356,Incheon Subway
+709,27,S-Train
+710,356,KTX
+711,356,Korail
+712,356,Others
+713,27,Bus
+714,354,Metro [RET]
+715,13,SRT
+716,22,TMT
